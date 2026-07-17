@@ -1,0 +1,20 @@
+{
+  "name": "saucedemo-page-object-model",
+  "version": "1.0.0",
+  "description": "Module 3 — the Module 2 SauceDemo tests refactored to the Page Object Model (POM + fixtures + data)",
+  "type": "commonjs",
+  "author": "William Oliveira",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "@types/node": "^25.5.0",
+    "typescript": "^5.7.0"
+  }
+}

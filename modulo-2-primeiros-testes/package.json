@@ -1,0 +1,20 @@
+{
+  "name": "saucedemo-primeiros-testes",
+  "version": "1.0.0",
+  "description": "Module 2 — first SauceDemo tests: flat specs, web-first assertions, env-driven credentials (no POM yet)",
+  "type": "commonjs",
+  "author": "William Oliveira",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "@types/node": "^25.5.0",
+    "dotenv": "^16.4.0",
+    "typescript": "^5.7.0"
+  }
+}

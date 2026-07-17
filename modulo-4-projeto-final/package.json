@@ -1,0 +1,29 @@
+{
+  "name": "saucedemo-projeto-final",
+  "version": "1.0.0",
+  "description": "Module 4 final project — production-ready SauceDemo E2E suite (POM, fixtures, storageState auth, cross-browser, Docker + CI)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=public-chromium-desktop --project=logged-in-chromium-desktop",
+    "test:report": "playwright show-report",
+    "test:examples": "playwright test --config examples/playwright.config.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "keywords": ["playwright", "typescript", "e2e", "page-object-model", "saucedemo", "docker", "ci"],
+  "author": "William Oliveira",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "@types/node": "^25.5.0",
+    "dotenv": "^16.4.0",
+    "eslint": "^9.18.0",
+    "eslint-plugin-playwright": "^2.1.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.20.0"
+  }
+}

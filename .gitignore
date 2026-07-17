@@ -1,0 +1,20 @@
+# Dependencies (also covered by each module's .gitignore)
+**/node_modules/
+
+# Playwright artifacts
+**/test-results/
+**/playwright-report/
+**/blob-report/
+**/playwright/.cache/
+**/playwright/.auth/
+
+# Environment (never commit real secrets; .env.example IS tracked)
+**/.env
+**/.env.local
+**/.env.*.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
